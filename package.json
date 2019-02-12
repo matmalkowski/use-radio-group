@@ -1,7 +1,7 @@
 {
   "name": "use-radio-group",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "1.0.1",
+  "description": "A simple state hooks to help with managing radio like controls",
   "source": "src/index.ts",
   "main": "lib/index.js",
   "umd:main": "lib/index.umd.js",

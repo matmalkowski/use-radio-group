@@ -1,12 +1,15 @@
 import { useState } from "react"
 
-const useRadioGroup = (initialSelection: string | number): [{[key: string]: boolean}, (newKey: string | number) => void] => {
-    const [checked, setItems] = useState<{[key: string]: boolean}>({[initialSelection]: true});
+type Dictionary<T> = {[key: string]: T};
+type Key = string | number;
 
-    const setChecked = (newKey: string | number):void => {
+const useRadioGroup = (initialSelection: Key): [Dictionary<boolean>, (newKey: Key) => void] => {
+    const [checked, setItems] = useState<Dictionary<boolean>>({[initialSelection]: true});
+
+    const setChecked = (newKey: Key):void => {
         setItems((prevChecked) => {
             const nextState = Object.keys(prevChecked)
-                .reduce((acc: { [key: string]: boolean}, k: string) => {
+                .reduce((acc: Dictionary<boolean>, k: string) => {
                     acc[k] = false;
                     return acc;
                 }, {})
