@@ -1,4 +1,5 @@
 [![Stable Release](https://img.shields.io/npm/v/use-radio-group.svg)](https://npm.im/use-radio-group)
+[![Build](https://travis-ci.org/matmalkowski/use-radio-group.svg?branch=master)](https://travis-ci.org/matmalkowski/use-radio-group)
 [![gzip size](http://img.badgesize.io/https://unpkg.com/use-radio-group@latest/lib/index.js?compression=gzip)](https://unpkg.com/use-radio-group@latest/lib/index.js)
 [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 
