@@ -1,6 +1,6 @@
 {
   "name": "use-radio-group",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple state hooks to help with managing radio like controls",
   "source": "src/index.ts",
   "main": "lib/index.js",
