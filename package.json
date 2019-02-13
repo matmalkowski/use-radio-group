@@ -14,15 +14,22 @@
     "lib/"
   ],
   "scripts": {
-    "build": "microbundle"
+    "build": "microbundle",
+    "test": "jest"
   },
   "peerDependencies": {
     "react": "^16.8.1"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.3",
     "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "jest": "^24.1.0",
     "microbundle": "^0.9.0",
     "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-testing-library": "^5.8.0",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.3.3"
   },
   "repository": {
@@ -33,5 +40,19 @@
     "React",
     "hooks",
     "useState"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
 }
