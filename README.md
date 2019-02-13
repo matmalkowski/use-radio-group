@@ -41,9 +41,11 @@ const [checked, setChecked] = useRadioGroup(1);
 
 The idea behind the hook is that it can be used easly with different grouping components that act as containers for radio-like buttons etc.
 
-Check our more complex example with buttons on CodeSandbox:
-[![Edit 8l0k8p7zkl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8l0k8p7zkl)
+## Examples
 
+Check our more complex example with buttons on CodeSandbox:
+
+[![Edit 8l0k8p7zkl](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8l0k8p7zkl)
 
 ## API
 ```typescript
