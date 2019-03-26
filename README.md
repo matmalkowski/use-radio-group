@@ -3,7 +3,7 @@
 [![gzip size](http://img.badgesize.io/https://unpkg.com/use-radio-group@latest/lib/index.js?compression=gzip)](https://unpkg.com/use-radio-group@latest/lib/index.js)
 [![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
 
-# use-radio-group { hook 🐠 }
+# use-radio-group { react hook 🐠 }
 
 Single state hook to handle radio like components checked state.
 
